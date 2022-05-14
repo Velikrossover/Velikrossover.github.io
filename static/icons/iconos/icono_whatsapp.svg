@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="120"
+   height="120"
+   viewBox="0 0 120 120"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1.1 (3bf5ae0, 2021-09-20)"
+   sodipodi:docname="icono_whatsapp.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#2f3341"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="false"
+     inkscape:document-units="px"
+     showgrid="true"
+     showguides="false"
+     inkscape:zoom="1.5792051"
+     inkscape:cx="58.573772"
+     inkscape:cy="47.808862"
+     inkscape:window-width="1366"
+     inkscape:window-height="705"
+     inkscape:window-x="0"
+     inkscape:window-y="40"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1">
+    <inkscape:grid
+       type="xygrid"
+       id="grid846" />
+  </sodipodi:namedview>
+  <defs
+     id="defs2">
+    <rect
+       x="-40"
+       y="-36"
+       width="48"
+       height="72"
+       id="rect13468" />
+    <rect
+       x="-48"
+       y="-40"
+       width="64"
+       height="72"
+       id="rect9677" />
+    <rect
+       x="24"
+       y="24"
+       width="60"
+       height="96"
+       id="rect6453" />
+  </defs>
+  <g
+     inkscape:label="icon"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="opacity:0.75;fill:none;stroke:#ffffff;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;stop-color:#000000"
+       id="rect1003"
+       x="16"
+       y="16" />
+    <text
+       xml:space="preserve"
+       id="text6451"
+       style="font-size:100px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;white-space:pre;shape-inside:url(#rect6453)"><tspan
+         x="24"
+         y="208.47656"
+         id="tspan2696"><tspan
+           style="font-size:66.6667px"
+           id="tspan2694">f</tspan></tspan></text>
+    <path
+       id="path965"
+       style="fill:#ffffff;fill-opacity:1;stroke-width:9.99997;stroke-linecap:round;paint-order:markers stroke fill;stop-color:#000000"
+       d="M 61.785156 12 A 45.784473 45.784473 0 0 0 16 57.785156 A 45.784473 45.784473 0 0 0 24.304688 83.923828 L 24 84 L 20 108 L 44 100 L 43.976562 99.882812 A 45.784473 45.784473 0 0 0 61.785156 103.56836 A 45.784473 45.784473 0 0 0 107.56836 57.785156 A 45.784473 45.784473 0 0 0 61.785156 12 z M 46.474609 26.763672 C 46.713389 26.742 46.947954 26.746643 47.175781 26.78125 C 49.60594 27.15039 51.975699 28.904548 53.646484 31.173828 C 55.31727 33.443107 56.289062 36.226093 55.919922 38.65625 C 55.550782 41.086407 49.982422 43.029297 49.982422 43.029297 C 49.982422 43.029297 46.354998 50.540546 48.416016 53.339844 L 54.285156 61.3125 L 57.160156 65.214844 L 63.029297 73.189453 C 65.090313 75.988751 73.339844 74.755859 73.339844 74.755859 C 73.339844 74.755859 76.849141 70.013672 79.279297 70.382812 C 84.139613 71.121092 88.761718 77.399451 88.023438 82.259766 C 87.469726 85.905002 79.115234 88.818359 79.115234 88.818359 C 79.115234 88.818359 60.974417 89.053977 56.308594 82.716797 L 48.251953 71.773438 L 45.378906 67.871094 L 37.322266 56.927734 C 32.65644 50.590555 38.267578 33.337891 38.267578 33.337891 C 38.267578 33.337891 42.892919 27.088757 46.474609 26.763672 z " />
+  </g>
+</svg>

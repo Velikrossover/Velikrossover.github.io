@@ -1,0 +1,440 @@
+html, body {
+    background: #2f3341;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 100%;
+    scroll-behavior: smooth;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #2a2d3b;
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+    border-bottom-color: royalblue;
+    height: 48px;
+}
+
+.navbar-title {
+    color : white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    margin: 0px 10px;
+}
+
+.navbar_nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.navbar_nav_item {
+    display: flex;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+    font-weight: bold;
+    color: white;
+    font-size: 16px;
+    height: 100%;
+    padding: 0px 10px;
+    margin: 0px 5px;
+}
+
+.navbar_nav_item:hover {
+    background-color: royalblue;
+}
+
+.section_about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: calc(100% - 50px);
+    background-image: url("Velikrossover.github.io/static/images/background.jpg");
+    background-size: cover;
+    background-position: bottom;
+    box-shadow: inset #1d1f27 0px 0px 10px;
+}
+
+.about_description {
+    text-align: center;
+    padding: 25px 0px;
+}
+
+#about_description_title {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 3em;
+    text-shadow: #2a2d3b 0px 0px 10px;
+}
+
+#about_description_text {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    text-shadow: #2a2d3b 0px 0px 10px;
+    padding: 20px 20px 0px 20px;
+}
+
+#button_services {
+    width: 250px;
+    height: 40px;
+    color: white;
+    background-color: royalblue;
+    border-style: solid;
+    border-width: 2px;
+    border-color: royalblue;
+    border-radius: 2px;
+    box-shadow: #52597a 0px 0px 5px;
+    margin: 20px 0px;
+    transition: 0.5s;
+}
+
+#button_services:hover {
+    background-color: rgb(71, 113, 240);
+}
+
+.button_link {
+    text-decoration: none;
+    height: 100%;
+}
+
+.section_services {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("Velikrossover.github.io/static/images/pattern.png");
+    min-height: 100%;
+}
+
+.section_services_title {
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 2em;
+    margin-top: 20px;
+}
+
+#section_services_entry {
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    background-color: #2f3341;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #1d1f27;
+    border-radius: 5px;
+    margin-top: 10px;
+    width: 250px;
+    height: 40px;
+}
+
+#section_services_entry:hover {
+    border-color: royalblue;
+}
+
+.card_service {
+    background-color: #2a2d3b;
+    width: 40%;
+    border-radius: 5px;
+    box-shadow: #1d1f27 0px 0px 5px;
+    margin: 40px 0px 0px 0px;
+}
+
+.card_image {
+    background-size: cover;
+    background-position: left;
+    border-bottom-style: solid;
+    border-bottom-width: 4px;
+    border-radius: 5px 5px 0px 0px;
+    height: 120px;
+}
+
+/*Images for cards*/
+.card_image_programacion {background-image: url("Velikrossover.github.io/static/images/programacion.png");}
+.card_image_publicidad {background-image: url("Velikrossover.github.io/static/images/publicidad.png");}
+.card_image_arte_y_diseño {background-image: url("Velikrossover.github.io/static/images/diseño.png");}
+.card_image_edicion_de_contenido {background-image: url("Velikrossover.github.io/static/images/edicion_de_contenido.png");}
+
+.card_image_blue {border-bottom-color: royalblue;}
+.card_image_orange {border-bottom-color: orange;}
+.card_image_red {border-bottom-color:#d32064 ;}
+.card_image_green  {border-bottom-color: yellowgreen;}
+
+#card_edicion_de_contenido {
+    margin-bottom: 40px;
+}
+
+.card_title {
+    color: white;
+    font-size: 2em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px 0px 0px 0px;
+}
+
+.card_item {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    cursor: pointer;
+    width: 80%;
+    height: 100%;
+    background-color: #2f3341;
+    border-style: solid;
+    border-width: 0px;
+    border-color: #1d1f27;
+    border-left-width: 4px;
+    border-radius: 0px 4px 4px 0px;
+    box-shadow: #1d1f27 0px 0px 5px;
+    padding: 0px;
+    margin: 10px auto;
+    transition: 0.5s;
+}
+
+.card_item_blue {border-left-color: royalblue;}
+.card_item_orange {border-left-color: orange;}
+.card_item_red {border-left-color: #d32064;}
+.card_item_green {border-left-color: yellowgreen;}
+
+.card_item:hover {
+    transform: scale(1.04);
+    transition: 0.2s;
+}
+
+.card_item_description {
+    margin: 0px 0px 0px 5px;
+}
+
+.card_item_title {
+    color: white;
+    text-align: left;
+    font-size: 1em;
+    font-weight: bold;
+    margin: 5px 0px 5px 0px;
+}
+
+.card_item_description_text {
+    color: #9ea5d3;
+    text-align: left;
+    font-style: italic;
+    margin: 0px 0px 0px 0px;
+}
+
+.card_item_image {
+    margin: 5px;
+}
+
+.section_contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #2a2d3b;
+    min-height: 100%;
+}
+
+#section_contact_title {
+    color: white;
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+#section_contact_description {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    width: 300px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.section_contact_text {
+    color: white;
+    font-size: 12px;
+    font-family: fantasy;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.label_email_copied {
+    display: none;
+    color: white;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #3d4253;
+    border-radius: 4px;
+    padding: 5px;
+}
+
+.label_number_copied {
+    display: none;
+    color: white;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #3d4253;
+    border-radius: 4px;
+    padding: 5px;
+}
+
+.button_contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: #21232e;
+    text-align: center;
+    font-weight: bold;
+    width: 300px;
+    height: 40px;
+    border-radius: 25px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #14161b;
+    padding: 5px 10px;
+    margin: 4px 0px;
+}
+
+.button_email {
+    color: white;
+    background-color: #3d4253;
+    transition: 0.5s;
+}
+
+.button_email:hover {
+    background-color :#3d4253;
+}
+
+.button_facebook {
+    background-color: #4476d1;
+    transition: 0.5s;
+}
+
+.button_facebook:hover {
+    background-color: #3562b6;
+}
+
+.button_whatsapp {
+    background-color: #25D366;
+}
+
+
+.button_instagram {
+    background : linear-gradient(90deg,#b81ccc,#ec7733);
+    transition: 0.2s;
+}
+
+.button_instagram:hover {
+    background-color: #a821c4;
+}
+
+.button_youtube {
+    background-color: #ff0000;
+    transition: 0.2s;
+}
+
+.button_youtube:hover {
+    background-color: #fd3434;
+}
+
+.separator {
+    background-color: #52597a;
+    width: 250px;
+    height: 1px;
+    margin: 10px auto;
+}
+
+#icon_copy {
+    margin-right: 5px;
+}
+
+.section_footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1d1f27;
+    height: 75px;
+}
+
+#copyright_text {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+/*Desktop*/
+@media only screen and (max-width : 1000px) {
+    #about_description_title {
+        font-size: 2em;
+    }
+
+    .card_service {
+        width: 60%;
+    }
+}
+
+/*Notebook and Tablets*/
+@media only screen and (max-width : 720px) {
+    #about_description_title {
+        font-size: 2em;
+    }
+
+    .card_service {
+        width: 80%;
+    }
+}
+
+/*Notebook and Tablets*/
+@media only screen and (max-width : 500px) {
+    #about_description_title {
+        font-size: 2em;
+    }
+
+    .card_service {
+        width: 90%;
+    }
+}
+
+/*Smartphones*/
+@media only screen and (max-width : 320px) {
+    #about_description_title {
+        font-size: 1em;
+    }
+
+    #logo_container {
+        display: none;
+    }
+
+    .card_service {
+        width: 100%;
+        border-radius: 0px;
+    }
+
+    .card_title {
+        font-size: 20px;
+    }
+
+    .card_item_description {
+        font-size: 16px;
+    }
+
+    .card_item_description_text {
+        font-size: 12px;
+    }
+
+    .button_contact {
+        width: 280px;
+    }
+}
