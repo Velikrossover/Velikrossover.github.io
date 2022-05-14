@@ -54,7 +54,7 @@ html, body {
     justify-content: center;
     align-items: center;
     min-height: calc(100% - 50px);
-    background-image: url("Velikrossover.github.io/static/images/background.jpg");
+    background-image: url("/static/images/background.jpg");
     background-size: cover;
     background-position: bottom;
     box-shadow: inset #1d1f27 0px 0px 10px;
@@ -109,7 +109,7 @@ html, body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-image: url("Velikrossover.github.io/static/images/pattern.png");
+    background-image: url("/static/images/pattern.png");
     min-height: 100%;
 }
 
@@ -158,10 +158,10 @@ html, body {
 }
 
 /*Images for cards*/
-.card_image_programacion {background-image: url("Velikrossover.github.io/static/images/programacion.png");}
-.card_image_publicidad {background-image: url("Velikrossover.github.io/static/images/publicidad.png");}
-.card_image_arte_y_diseño {background-image: url("Velikrossover.github.io/static/images/diseño.png");}
-.card_image_edicion_de_contenido {background-image: url("Velikrossover.github.io/static/images/edicion_de_contenido.png");}
+.card_image_programacion {background-image: url("/static/images/programacion.png");}
+.card_image_publicidad {background-image: url("/static/images/publicidad.png");}
+.card_image_arte_y_diseño {background-image: url("/static/images/diseño.png");}
+.card_image_edicion_de_contenido {background-image: url("/static/images/edicion_de_contenido.png");}
 
 .card_image_blue {border-bottom-color: royalblue;}
 .card_image_orange {border-bottom-color: orange;}
