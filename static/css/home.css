@@ -215,6 +215,7 @@ html, body {
 .card_image_publicidad {background-image: url("/static/images/publicidad.png");}
 .card_image_arte_y_diseño {background-image: url("/static/images/diseño.png");}
 .card_image_edicion_de_contenido {background-image: url("/static/images/edicion_de_contenido.png");}
+.card_image_productos {background-image: url("/static/images/imprenta.jpg");}
 
 .card_image_blue {border-bottom-color: royalblue;}
 .card_image_orange {border-bottom-color: orange;}
